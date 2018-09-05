@@ -1,0 +1,22 @@
+{
+  "name": "salary-calculator-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abubanggheed/salary-calculator-server.git"
+  },
+  "author": "abubanggheed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abubanggheed/salary-calculator-server/issues"
+  },
+  "homepage": "https://github.com/abubanggheed/salary-calculator-server#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
