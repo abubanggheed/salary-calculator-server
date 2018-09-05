@@ -1,0 +1,49 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1 {
+    background-color: gray;
+    color: white;
+    padding: 1em;
+    font-weight: 500;
+}
+
+h2 {
+    margin-left: 0.5em;
+    font-weight: 300;
+}
+
+#inputDiv{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+#addEmployeeButton{
+    float: right;
+    margin-right: 5rem;
+}
+
+input {
+    margin: 0.5em;
+}
+
+table{
+    margin: 0.5em;
+}
+
+table, th, td {
+    border: 2px solid darkslategrey;
+    border-collapse: collapse;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+tfoot {
+    background-color: #dddddd;
+}

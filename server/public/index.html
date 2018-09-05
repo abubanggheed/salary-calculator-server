@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Salary Calculator</title>
+</head>
+<body>
+    <h1>Salary Calculator</h1>
+    <h2>Add Employee</h2>
+    <div class="container" id="inputDiv">
+        <input type="text" id="firstNameIn" placeholder="First Name"/>
+        <input type="text" id="lastNameIn" placeholder="Last Name"/>
+        <input type="number" id="employeeIDIn" placeholder="ID"/>
+        <input type="text" id="titleIn" placeholder="Title"/>
+        <input type="number" id="salaryIn" placeholder="Annual Salary"/>
+    </div>
+    <button class="btn btn-primary" id="addEmployeeButton">Submit</button>
+    <h2>Employees</h2>
+    <table class="col-8">
+        <thead>
+            <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>ID</td>
+                <td>Title</td>
+                <td>Annual Salary</td>
+            </tr>
+        </thead>
+        <tbody id="employeeList">
+        </tbody>
+        <tfoot>
+            <tr><td colspan="5"></td></tr>
+        </tfoot>
+    </table>
+    <h2 id="totalMonthlyLine">Total Monthly: $<span id="totalMonthly"></span></h2>
+</body>
+</html>
